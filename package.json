@@ -1,0 +1,13 @@
+{
+    "name": "ashitaka2d-prototype",
+    "version": "0.0.1",
+    "description": "Prototipo en GB Studio para Ashitaka2D",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ciretorres/ashitaka2d-prototype"
+    },
+    "bugs": {
+      "url": "https://github.com/ciretorres/ashitaka2d-prototype/issues"
+    },
+    "homepage": "https://github.com/ciretorres/ashitaka2d-prototype#readme"
+  }
