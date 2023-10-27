@@ -1,0 +1,45 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Overworld.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Overworld.tmx": {
+            "scale": 2.1857421875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.10293986238943,
+                "y": 128.33169511214368
+            }
+        },
+        "Overworld.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.7312,
+            "scaleInEditor": 0.82
+        }
+    },
+    "last.imagePath": "/Users/erictorres/Documents/Unity/Ashitaka2D/Assets/Sprites/Background/gfx",
+    "map.height": 32,
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": "2",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 32,
+    "openFiles": [
+        "Overworld.tsx",
+        "Overworld.tmx"
+    ],
+    "project": "Maps.tiled-project",
+    "recentFiles": [
+        "Overworld.tsx",
+        "Overworld.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
