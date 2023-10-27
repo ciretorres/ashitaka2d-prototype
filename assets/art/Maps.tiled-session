@@ -6,6 +6,7 @@
     "activeFile": "Overworld.tmx",
     "expandedProjectPaths": [
     ],
+    "exportAsImage.useCurrentScale": true,
     "fileStates": {
         "Overworld.tmx": {
             "scale": 2.1857421875,
