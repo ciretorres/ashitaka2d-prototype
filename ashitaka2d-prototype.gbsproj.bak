@@ -425,40 +425,40 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                0,
-                0,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
                 0,
                 15,
-                15,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 0,
                 0,
                 15,
@@ -1043,7 +1043,42 @@
             "symbol": "scene_1",
             "x": 143,
             "y": 107,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a54eb688-2f63-4e99-9f13-174f150dfdb4",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_0",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Spirit Forest"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d83eb18c-bbbb-47a5-90ea-08f4cc810f41"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4662100c-c476-4fd9-87bf-37b2c8dc5fca",
+                    "x": 28,
+                    "y": 13
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -2118,9 +2153,44 @@
             "autoFadeSpeed": 1,
             "id": "c855ce4c-189b-456f-9525-0414e2650bf2",
             "symbol": "scene_2",
-            "x": 141.5,
-            "y": 396,
-            "actors": [],
+            "x": 286.5,
+            "y": 395,
+            "actors": [
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a54eb688-2f63-4e99-9f13-174f150dfdb4",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_1",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Shishigami's lake"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "5784bfb7-9fa1-4dca-bb08-becffc650d1d"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9a8343c7-0c1b-47be-a8ba-f2ff17bb460b",
+                    "x": 28,
+                    "y": 13
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -3211,8 +3281,8 @@
             "autoFadeSpeed": 1,
             "id": "97d54be9-f3ec-46e8-874e-af5f955902c0",
             "symbol": "scene_3",
-            "x": 419,
-            "y": 395.5,
+            "x": 479.5,
+            "y": 106,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -3252,7 +3322,8 @@
             "height": 32,
             "imageWidth": 256,
             "imageHeight": 256,
-            "filename": "Maps3.png"
+            "filename": "Maps3.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -3934,6 +4005,134 @@
             "animSpeed": 15
         },
         {
+            "id": "a54eb688-2f63-4e99-9f13-174f150dfdb4",
+            "name": "signal",
+            "symbol": "sprite_signal",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "signal.png",
+            "checksum": "9925c44c9caf5e2077fef9611cc80b06828971ca",
+            "width": 16,
+            "height": 16,
+            "states": [
+                {
+                    "id": "c2c196d8-2986-40be-aafa-9c71c55b1e13",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": false,
+                    "animations": [
+                        {
+                            "id": "1b927833-60fb-441e-8318-f80dcdb473c5",
+                            "frames": [
+                                {
+                                    "id": "d6c096a6-5631-45e5-9417-e6d5d10f0be3",
+                                    "tiles": [
+                                        {
+                                            "id": "42d7a294-bc48-49fb-9f4d-a9c5ed5244fb",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "ad9cad80-168d-44a0-bcad-c1ee3f2bcbff",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "palette": 0,
+                                            "paletteIndex": 0,
+                                            "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3865266b-0597-440f-85e3-809fe241ec27",
+                            "frames": [
+                                {
+                                    "id": "7c75346c-2046-4a06-9ee2-b922577e5cdf",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "994da64f-b649-4777-a6aa-7c0f0241a6ac",
+                            "frames": [
+                                {
+                                    "id": "1d3502aa-e5ec-460d-8bba-7d3dd363e8ef",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e1889bd7-1098-4267-9f3d-1b585e043f48",
+                            "frames": [
+                                {
+                                    "id": "0c801daf-df53-4cb1-8a73-a0a2b4c8905b",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "293b6952-0f73-4280-b2dc-c7f3d6e4f004",
+                            "frames": [
+                                {
+                                    "id": "70c53d20-32bb-40f6-9146-41b5dca41364",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "edcf7fcf-16c3-4264-96c8-e1c61f33b3ec",
+                            "frames": [
+                                {
+                                    "id": "8552cffa-bf2d-49d3-ada2-5ffbea88b3e1",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4bf0fda3-bcf2-4fcb-96b3-35bbfb0b6c4d",
+                            "frames": [
+                                {
+                                    "id": "f678de37-a98f-4c50-a9fb-2f03252b8a6c",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3d676ef0-538c-44c2-aee9-948ec7b98d37",
+                            "frames": [
+                                {
+                                    "id": "33144f2d-526a-4c37-ab00-bd089e3368cd",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 2,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
             "name": "static",
             "symbol": "sprite_static",
@@ -4313,9 +4512,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 328,
-        "zoom": 200,
+        "worldScrollX": 355,
+        "worldScrollY": 0,
+        "zoom": 100,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -4343,9 +4542,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            596,
-            176,
-            176
+            440,
+            130,
+            130
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
