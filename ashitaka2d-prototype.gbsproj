@@ -2221,6 +2221,29 @@
                     "id": "9a8343c7-0c1b-47be-a8ba-f2ff17bb460b",
                     "x": 28,
                     "y": 13
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a3ede136-0721-4d59-aa36-7a14fd28d0e2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_4",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fc3d62b1-81be-44a6-9203-c30221ef2dfc",
+                    "x": 14,
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -5731,8 +5754,8 @@
             "canvasHeight": 16,
             "boundsX": 0,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 0,
+            "boundsHeight": 0,
             "animSpeed": 15
         },
         {
@@ -5913,8 +5936,8 @@
             "canvasHeight": 16,
             "boundsX": 0,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 0,
+            "boundsHeight": 0,
             "animSpeed": 15
         },
         {
@@ -6446,9 +6469,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 1922,
+        "worldScrollY": 1753,
+        "zoom": 400,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
