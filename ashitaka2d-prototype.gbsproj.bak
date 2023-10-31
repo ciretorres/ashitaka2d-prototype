@@ -3358,7 +3358,7 @@
                                 },
                                 "y": {
                                     "type": "number",
-                                    "value": 7
+                                    "value": 8
                                 },
                                 "speed": 5,
                                 "__collapse": false
