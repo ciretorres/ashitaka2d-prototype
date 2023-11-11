@@ -6,14 +6,20 @@
     "activeFile": "Overworld.tmx",
     "expandedProjectPaths": [
     ],
-    "exportAsImage.useCurrentScale": true,
+    "exportAsImage.useCurrentScale": false,
     "fileStates": {
+        "Forest Spirit.tsx": {
+            "scaleInDock": 1
+        },
         "Overworld.tmx": {
-            "scale": 2.1857421875,
-            "selectedLayer": 0,
+            "expandedGroupLayers": [
+                19
+            ],
+            "scale": 7.7988,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 128.10293986238943,
-                "y": 128.33169511214368
+                "x": 173.55234138585422,
+                "y": 135.59778427450377
             }
         },
         "Overworld.tsx": {
